@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>binding</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      
+      <ion-title size="large">
+        <ion-list>
+          
+          <ion-item>
+           
+            <ion-input placeholder="Apellidos Cliente" [ngModel]="cliente.apellidos"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input placeholder="Nombres Cliente"  [ngModel]="cliente.nombres"></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
